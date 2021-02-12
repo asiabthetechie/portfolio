@@ -1,15 +1,13 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav';
-import SocialMediaButtons from './components/SocialMediaButtons/SocialMediaButtons';
+import Contacts from './pages/Contacts';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <h1>App Body</h1>
-      <SocialMediaButtons />
-      <Footer />
+      <Contacts />
     </div>
   );
 }

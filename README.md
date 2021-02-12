@@ -42,3 +42,13 @@
 ## Pages
 - Create the 'Pages' folder. 
 ---
+
+# Commit Three - Buttons
+## Social Media Buttons
+- Added social media buttons to the 'SocialMediaButtons' component.
+- Created a 'SocialMediaButtons.css' style sheet.
+- Imported the 'SocialMediaButtons.css' file into the corresponding component. 
+- Started add a little styling to the social media buttons. 
+
+--- 
+# Commit Four 

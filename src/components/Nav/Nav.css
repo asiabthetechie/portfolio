@@ -1,0 +1,24 @@
+/* This portion of the nav bar will be hidden until 
+we build upon the portfolio more.*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    height: 88px;
+    width: 100%;
+    border-bottom: 1px solid #72767C;
+
+}
+
+.mobile-logo {
+    width: 64px;
+    height: 64px;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.nav-menu {
+    display: none;
+}

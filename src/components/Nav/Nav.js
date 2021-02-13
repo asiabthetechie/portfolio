@@ -1,10 +1,14 @@
 import React from 'react'
+import './Nav.css'
 
 const Nav = () => {
     return (
         <div>
             {/*Navigation Bar*/}
-            <nav>
+            <nav className="nav-bar">
+                {/*Image for Mobile Nav*/}
+                <img className="mobile-logo" src="../assets/logo-and-icons/portfolio-logo-icon64px.png" />
+
                 {/*Navigation Menu Links*/}
                 <ul className="nav-menu">
                     <li className="about-page"><a href="#">About Me</a></li>

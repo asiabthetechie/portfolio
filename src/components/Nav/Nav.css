@@ -9,7 +9,7 @@ we build upon the portfolio more.*/
     height: 88px;
     width: 100%;
     border-bottom: 1px solid #72767C;
-
+    box-shadow: -0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .mobile-logo {

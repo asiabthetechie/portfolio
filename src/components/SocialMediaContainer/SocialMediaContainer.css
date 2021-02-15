@@ -21,4 +21,21 @@
     height: 46px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
+}
+
+.star-decor-right {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 88px;
+    top: 136px;
+}
+
+.star-decor-left {
+    position: absolute;
+    width: 64px;
+    height: 56px;
+    left: 88px;
+    top: 248px;
 }

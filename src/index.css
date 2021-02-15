@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "KreonRegular";
+    src: local("KreonRegular"),
+    url("../src/assets/fonts/Kreon-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "MontserratAlternatesBold";
+    src: local("MontserratAlternatesBold"),
+        url("../src/assets/fonts/MontserratAlternates-Bold.ttf")
+        format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "MontserratAlternatesLight";
+    src: local("MontserratAlternatesLight"),
+    url("../src/assets/fonts/MontserratAlternates-Light.ttf")
+    format("truetype");
+}

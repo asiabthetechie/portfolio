@@ -9,4 +9,35 @@
     height: 48px;
     background-color: #ffffff;
     border: 2px solid #021D27;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'MontserratAlternatesBold', 'Franklin Gothic Medium', sans-serif;
+    font-size: 16px;
+}
+
+.socialMediaButtonImage {
+    position: absolute ;
+    width: 32px;
+    height: 32px;
+    left: 104px;
+}
+
+.twitterIcon {
+    top: 376px;
+}
+
+.linkedinIcon {
+    top: 440px;
+}
+
+.instagramIcon {
+    top: 504px;
+}
+
+.githubIcon {
+    top: 568px;
+}
+
+.redditIcon {
+    top: 632px;
 }

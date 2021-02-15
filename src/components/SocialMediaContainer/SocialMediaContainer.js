@@ -11,16 +11,18 @@ const SocialMediaContainer = () => {
 
     return (
         <div className="socialMediaContainer">
-            {/* Header Section above Buttons*/}
-            <img classname="right-stars"
-                src={stars}/>
-            <img className="left-stars"
-                src={stars}/>
+            {/*Header Section above Buttons*/}
             <img className="profilePic" 
                 src={profilePicture}/>
             <div className="connectText">
                 <span>Connect with me on any of my socials below!</span>
             </div>
+
+            {/*Decorative Elements*/}
+            <img className="star-decor-right"
+                src={stars}/>
+            <img className="star-decor-left"
+                src={stars}/>
 
             {/*Social Media Button Area*/}
             <SocialMediaButtons />

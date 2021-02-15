@@ -1,8 +1,12 @@
 .socialMediaButtonContainer {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
 .socialMediaButton {
+    margin: 8px auto;
+    width: 204px;
+    height: 48px;
     background-color: #ffffff;
+    border: 2px solid #021D27;
 }

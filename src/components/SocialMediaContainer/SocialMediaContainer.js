@@ -10,7 +10,11 @@ const SocialMediaContainer = () => {
 
     return (
         <div className="socialMediaContainer">
-            <img className="profilePic" src={profilePicture}/>
+            <img className="profilePic" 
+                src={profilePicture}/>
+            <div className="connectText">
+                <span>Connect with me on any of the socials below!</span>
+            </div>
             <SocialMediaButtons />
         </div>
     )

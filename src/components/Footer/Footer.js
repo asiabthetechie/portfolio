@@ -1,9 +1,10 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer>
-            <span>Made by Asia B the Techie.</span>
+        <footer className="footer">
+            <p>Made by Asia B the Techie.</p>
         </footer>
     )
 }

@@ -4,10 +4,8 @@ import './page-stylesheet.css';
 
 const Contacts = () => {
     return (
-        <div>
-            <div className="contact-page">
-                <SocialMediaContainer />
-            </div>
+        <div className="contact-page">
+            <SocialMediaContainer />
         </div>
     )
 }

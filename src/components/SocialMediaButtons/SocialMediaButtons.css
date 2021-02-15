@@ -1,3 +1,8 @@
+.socialMediaButtonContainer {
+    display:flex;
+    flex-direction: column;
+}
+
 .socialMediaButton {
     background-color: #ffffff;
 }

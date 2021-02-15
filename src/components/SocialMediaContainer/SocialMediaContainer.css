@@ -1,9 +1,15 @@
 .socialMediaContainer {
-    position: relative;
-    margin-top: 8px;
-    margin: auto;
+    margin: 8px auto;
     width: 288px;
     height: 600px;
     border: 3px solid #021D27;
+}
 
+.profilePic {
+    display: block;
+    margin: 32px auto;
+    width: 144px;
+    height: 144px;
+    border: 3px solid #021D27;
+    border-radius: 50%;
 }

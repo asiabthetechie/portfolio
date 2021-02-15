@@ -12,7 +12,7 @@ const SocialMediaButtons = () => {
 
 
     return (
-        <div>
+        <div className="socialMediaButtonContainer">
             {/*Button to link to Twitter*/}
             <button
                 className="socialMediaButton"

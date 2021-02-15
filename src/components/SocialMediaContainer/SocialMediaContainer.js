@@ -4,12 +4,14 @@ import SocialMediaButtons from '../SocialMediaButtons/SocialMediaButtons';
 
 
 const SocialMediaContainer = () => {
+
+    // Profile Pic
+    const profilePicture = "/portfolio-app/src/assets/images/profile-pic256px.png";
+
     return (
-        <div>
-        {/*Social Media Container*/}
-            <div className="socialMediaContainer">
-                <SocialMediaButtons />
-            </div>
+        <div className="socialMediaContainer">
+            <img className="profilePic" src={profilePicture}/>
+            <SocialMediaButtons />
         </div>
     )
 }

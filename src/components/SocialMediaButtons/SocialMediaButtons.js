@@ -1,5 +1,10 @@
 import React from 'react';
 import "./SocialMediaButtons.css";
+import twitterPic from '../../../src/assets/logo-and-icons/twitter-icon64px.png';
+import linkedinPic from '../../../src/assets/logo-and-icons/linkedin-icon64px.png';
+import instagramPic from '../../../src/assets/logo-and-icons/instagram-icon64px.png';
+import githubPic from '../../../src/assets/logo-and-icons/github-icon64px.png';
+import redditPic from '../../../src/assets/logo-and-icons/reddit-icon64px.png';
 
 const SocialMediaButtons = () => {
 
@@ -9,13 +14,6 @@ const SocialMediaButtons = () => {
     const instagram = "https://www.instagram.com/asia.b.the.techie/";
     const reddit = "https://www.reddit.com/user/AsiaBtheTechie";
     const github = "https://github.com/asiabthetechie";
-
-    // Social Media Images
-    const twitterPic = "/portfolio-app/src/assets/logo-and-icons/twitter-icon64px.png";
-    const linkedinPic = "/portfolio-app/src/assets/logo-and-icons/linkedin-icon64px.png";
-    const instagramPic = "/portfolio-app/src/assets/logo-and-icons/instagram-icon64px.png";
-    const githubPic = "/portfolio-app/src/assets/logo-and-icons/github-icon64px.png";
-    const redditPic = "/portfolio-app/src/assets/logo-and-icons/reddit-icon64px.png";
 
     return (
         <div className="socialMediaButtonContainer">

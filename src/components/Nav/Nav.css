@@ -1,10 +1,4 @@
-/* This portion of the nav bar will be hidden until 
-we build upon the portfolio more.*/
-* {
-    margin: 0;
-    padding: 0;
-}
-
+/*Nav Bar Container Styling*/
 .nav-bar {
     height: 88px;
     width: 100%;
@@ -12,13 +6,15 @@ we build upon the portfolio more.*/
     box-shadow: -0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/*Nav Bar Logo*/
 .mobile-logo {
     width: 64px;
     height: 64px;
     margin-top: 16px;
-    margin-left: 40px;
+    margin-left: 48px;
 }
 
+/*Nav Bar Menu*/
 .nav-menu {
     display: none;
 }

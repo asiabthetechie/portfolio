@@ -1,21 +1,26 @@
+/*Social Media Container*/
 .socialMediaContainer {
+    position: relative;
     background-color: #fff;
     margin: 8px auto;
     width: 288px;
-    height: 600px;
+    height: auto;
+    padding-bottom: 24px;
     border: 3px solid #021D27;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.profilePic {
+/*Profile Picture*/
+.contactPic {
     display: block;
-    margin: 32px auto;
+    margin: 32px auto 8px;
     width: 144px;
     height: 144px;
     border: 3px solid #021D27;
     border-radius: 50%;
 }
 
+/*Social Media Container Text*/
 .connectText {
     width: 180px;
     height: 46px;
@@ -24,18 +29,19 @@
     font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
 }
 
+/*Social Media Decor*/
 .star-decor-right {
     position: absolute;
     width: 32px;
     height: 32px;
-    right: 88px;
-    top: 136px;
+    right: 48px;
+    top: 32px;
 }
 
 .star-decor-left {
     position: absolute;
     width: 64px;
     height: 56px;
-    left: 88px;
-    top: 248px;
+    left: 24px;
+    top: 132px;
 }

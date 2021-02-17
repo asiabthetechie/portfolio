@@ -1,16 +1,16 @@
 import React from 'react'
 import './Nav.css'
+import icon from '../../../src/assets/logo-and-icons/portfolio-logo-icon64px.png'
 
 const Nav = () => {
-
-    // Logo
-    const mobileLogo = "/portfolio-app/src/assets/logo-and-icons/portfolio-logo-icon64px.png"
 
     return (
         <nav className="nav-bar">
         {/*Navigation Bar*/}
             {/*Logo for Mobile Nav*/}
-            <img className="mobile-logo" src={mobileLogo} />
+            <img src={icon}
+                className="mobile-logo"
+                alt="logo icon"/>
 
             {/*Navigation Menu Links*/}
             <ul className="nav-menu">

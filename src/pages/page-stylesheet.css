@@ -1,6 +1,10 @@
 .contact-page {
+    min-width: 300px;
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(to top, rgba(96, 210, 203, 1), 
     rgba(96, 210, 203, 0.295),
     rgba(96, 210, 203, 0.055),
     rgba(96, 210, 203, 0) );
+    background-size: cover;
 }

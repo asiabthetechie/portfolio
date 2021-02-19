@@ -2,7 +2,7 @@
 .socialMediaContainer {
     position: relative;
     background-color: #fff;
-    margin: 8px auto;
+    margin: 24px auto;
     width: 288px;
     height: auto;
     padding-bottom: 24px;
@@ -36,6 +36,7 @@
     height: 32px;
     right: 48px;
     top: 32px;
+    transform: scaleX(-1);
 }
 
 .star-decor-left {
@@ -45,3 +46,17 @@
     left: 24px;
     top: 132px;
 }
+
+/*----------Social Media Container Tablet Styling---------------*/
+@media screen and (min-width: 768px) {
+    .socialMediaContainer {
+        width: 512px;
+    }
+
+    .star-decor-right {
+        display: none;
+    }
+
+}
+
+/*----------Social Media Container Desktop Styling---------------*/

@@ -1,20 +1,45 @@
+/*----------Nav Bar Mobile Phone Styling---------------*/
 /*Nav Bar Container Styling*/
 .nav-bar {
-    height: 88px;
+    height: 80px; 
+    min-width: 300px;
     width: 100%;
     border-bottom: 1px solid #72767C;
     box-shadow: -0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /*Nav Bar Logo*/
-.mobile-logo {
+.icon-logo {
     width: 64px;
-    height: 64px;
-    margin-top: 16px;
-    margin-left: 48px;
+    height: auto;
+    float: left;
+    margin: 8px;
+}
+
+.icon-name-logo {
+    display: none;
 }
 
 /*Nav Bar Menu*/
 .nav-menu {
     display: none;
+}
+
+/*----------Nav Bar Tablet & Desktop Styling---------------*/
+/*Updates the Nav Bar Logo to the Tablet/Desktop Version*/
+@media screen and (min-width: 768px) {
+    .nav-bar {
+        height: 144px;
+    }
+
+    .icon-logo {
+        display: none;    
+    }
+
+    .icon-name-logo {
+        display: inline;
+        height: 128px;
+        width: 320px;
+        margin: 8px;
+    }
 }

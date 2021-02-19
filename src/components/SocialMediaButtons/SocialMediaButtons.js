@@ -1,10 +1,10 @@
 import React from 'react';
 import "./SocialMediaButtons.css";
-import twitterPic from '../../../src/assets/logo-and-icons/twitter-icon64px.png';
-import linkedinPic from '../../../src/assets/logo-and-icons/linkedin-icon64px.png';
-import instagramPic from '../../../src/assets/logo-and-icons/instagram-icon64px.png';
-import githubPic from '../../../src/assets/logo-and-icons/github-icon64px.png';
-import redditPic from '../../../src/assets/logo-and-icons/reddit-icon64px.png';
+import twitterPic from '../../../src/assets/logo-and-icons/twitter-icon-svg.svg';
+import linkedinPic from '../../../src/assets/logo-and-icons/linkedin-icon-svg.svg';
+import instagramPic from '../../../src/assets/logo-and-icons/instagram-icon-svg.svg';
+import githubPic from '../../../src/assets/logo-and-icons/github-icon-svg.svg';
+import redditPic from '../../../src/assets/logo-and-icons/reddit-icon-svg.svg';
 
 const SocialMediaButtons = () => {
 

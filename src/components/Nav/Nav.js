@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
-import icon from '../../../src/assets/logo-and-icons/portfolio-logo-icon64px.png'
+import iconLogo from '../../../src/assets/logo-and-icons/logo-icon-svg.svg';
+import iconNameLogo from '../../../src/assets/logo-and-icons/logo-icon-and-name-svg.svg';
 
 const Nav = () => {
 
@@ -8,9 +9,13 @@ const Nav = () => {
         <nav className="nav-bar">
         {/*Navigation Bar*/}
             {/*Logo for Mobile Nav*/}
-            <img src={icon}
-                className="mobile-logo"
-                alt="logo icon"/>
+            <img src={iconLogo}
+                className="icon-logo"
+                alt="logo"/>
+            {/*Logo for Tablet & Desktop Nav*/}
+            <img src={iconNameLogo}
+                className="icon-name-logo"
+                alt="logo"/>
 
             {/*Navigation Menu Links*/}
             <ul className="nav-menu">

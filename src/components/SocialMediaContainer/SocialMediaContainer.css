@@ -58,11 +58,28 @@
     display: none;
 }
 
-/*----------Social Media Container Tablet Styling---------------*/
+/*----------Social Media Container Tablet & Desktop Styling---------------*/
 @media screen and (min-width: 768px) {
     .socialMediaContainer {
-        width: 512px;
         box-shadow: -16px 16px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .socials-header {
+        display: inline;
+    }
+
+    .connectText {
+        display: inline-block;
+        width: 304px;
+        height: 64px;
+    }
+
+}
+
+/*----------Social Media Container Tablet Specific Styling---------------*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .socialMediaContainer {
+        width: 512px;
     }
 
     .contactPic {
@@ -75,10 +92,7 @@
     }
 
     .connectText {
-        display: inline-block;
         position: absolute;
-        width: 304px;
-        height: 64px;
         padding: 0;
         margin: 16px;
         top: 90px;
@@ -86,7 +100,6 @@
     }
 
     .socials-header {
-        display: inline;
         position: absolute;
         top: 56px;
         right: 104px;
@@ -115,3 +128,31 @@
 }
 
 /*----------Social Media Container Desktop Styling---------------*/
+@media screen and (min-width: 992px) {
+    .socialMediaContainer {
+        width: 400px;
+        margin: 40px;
+        float: right;
+    }
+
+    .socials-header {
+        display: block;
+        position: relative;
+        left: 112px;
+        margin: 32px auto 8px;
+        font-size: 28pt;
+    }
+
+    .connectText {
+        position: relative;
+        margin-left: 36px;
+    }
+
+    .connectText span::after {
+        content: " Always working on new projects, sharing pics, tips, memes, and cute stuff!";
+    }
+
+    .contactPic, .star-decor-right, .star-decor-left {
+        display: none;
+    }
+}

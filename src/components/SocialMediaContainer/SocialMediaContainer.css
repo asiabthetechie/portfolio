@@ -130,9 +130,9 @@
 /*----------Social Media Container Desktop Styling---------------*/
 @media screen and (min-width: 992px) {
     .socialMediaContainer {
+        display: inline-block;
         width: 400px;
-        margin: 40px;
-        float: right;
+        margin: 40px auto;
     }
 
     .socials-header {

@@ -1,6 +1,14 @@
 .contactMeContainer {
-    width: 500px;
-    height: auto;
-    background-color: #fff;
-    box-shadow: -16px 16px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .contactMeContainer {
+        display: inline-block;
+        width: 40%;
+        margin: 40px auto;
+        height: auto;
+        background-color: #fff;
+        box-shadow: -16px 16px 5px rgba(0, 0, 0, 0.2);
+    }
 }

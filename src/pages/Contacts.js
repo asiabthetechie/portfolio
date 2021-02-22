@@ -1,13 +1,13 @@
 import React from 'react';
+import ContactMeContainer from "../components/ContactMeContainer/ContactMeContainer";
 import SocialMediaContainer from '../components/SocialMediaContainer/SocialMediaContainer';
-import Footer from '../components/Footer/Footer';
-import './page-stylesheet.css';
+import './Contacts.css';
 
 const Contacts = () => {
     return (
         <div className="contact-page">
+            <ContactMeContainer />
             <SocialMediaContainer />
-            <Footer />
         </div>
     )
 }

@@ -1,0 +1,14 @@
+legend {
+    font-family: 'MontserratAlternatesBold', 'Franklin Gothic Medium', sans-serif;
+}
+
+.contactInfo {
+    display: grid;
+    padding: 16px;
+    grid-template-columns: [lside] 50% [rside] 50%;
+    grid-template-rows: [name] 40% [email-company] 40%;
+}
+
+.job-info {
+    padding: 16px 16px 0;
+}

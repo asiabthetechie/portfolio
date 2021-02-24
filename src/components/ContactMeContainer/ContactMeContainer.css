@@ -2,13 +2,32 @@
     display: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
     .contactMeContainer {
-        display: inline-block;
-        width: 40%;
-        margin: 40px auto;
+        display: block;
+        width: 472px;
+        max-width: 60%;
+        margin: 40px 32px;
         height: auto;
         background-color: #fff;
+        border: 3px solid #021D27;
         box-shadow: -16px 16px 5px rgba(0, 0, 0, 0.2);
+        flex-grow: 2;
+    }
+
+    .contactMeHeader {
+        font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
+        text-align: center;
+        font-size: 28pt;
+        margin-top: 16px;
+    }
+
+    .contactMeContainer span {
+        font-family: 'MontserratAlternatesLight', 'Franklin Gothic Medium', sans-serif;
+        display: inline-block;
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
     }
 }

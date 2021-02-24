@@ -128,24 +128,27 @@
 }
 
 /*----------Social Media Container Desktop Styling---------------*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
     .socialMediaContainer {
-        display: inline-block;
         width: 400px;
-        margin: 40px auto;
+        margin: 40px 32px;
+        height: 560px;
     }
 
     .socials-header {
         display: block;
-        position: relative;
-        left: 112px;
-        margin: 32px auto 8px;
+        text-align: center;
         font-size: 28pt;
+        margin-top: 16px;
     }
 
     .connectText {
-        position: relative;
-        margin-left: 36px;
+        display: block;
+        text-align: center;
+        width: 304px;
+        height: 80px;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
 
     .connectText span::after {

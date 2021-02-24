@@ -10,3 +10,8 @@ html, body {
     rgba(96, 210, 203, 0) );
     overflow-x: hidden;
 }
+
+.contact-page {
+    display: flex;
+    justify-content: space-evenly;
+}

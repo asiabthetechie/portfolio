@@ -1,14 +1,116 @@
+/*Contact Info and Job Info Container*/
+fieldset {
+    margin: 3%;
+    border-top: 1.5px solid #72767C;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+/*Contact Info and Job Info Container Headers*/
 legend {
-    font-family: 'MontserratAlternatesBold', 'Franklin Gothic Medium', sans-serif;
+    font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 4px;
 }
 
-.contactInfo {
+/*Display for the Contact Info Input Elements*/
+.contact-info {
     display: grid;
-    padding: 16px;
-    grid-template-columns: [lside] 50% [rside] 50%;
-    grid-template-rows: [name] 40% [email-company] 40%;
+    padding-left: 5%;
+    padding-bottom: 16px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 40%;
 }
 
+/*Display for the Contact Info Input Elements*/
 .job-info {
-    padding: 16px 16px 0;
+    padding: 0 5% 0;
+}
+
+/*----------Contact Me Form Input Styling---------------*/
+/*Help Text*/
+i {
+    font-family: 'MontserratAlternatesLight', 'Franklin Gothic Medium', sans-serif;
+    font-size: 0.9em;
+}
+
+/*Input Styling*/
+label {
+    font-family: 'MontserratAlternatesMedium', 'Franklin Gothic Medium', sans-serif;
+    font-size: 0.85rem;
+}
+
+.input-header {
+    display: block;
+    margin-top: 24px;
+    margin-left: 4px;
+    font-weight: bold;
+    
+}
+
+/*Styling for Text Input Elements*/
+.email-header, .company-header {
+    margin-bottom: -4px;
+}
+
+input[type="text"] {
+    font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
+    font-size: 1.20em;
+    width: 90%;
+    height: 24px;
+    max-width: 400px;
+}
+
+/*Styling for Checkboxes*/
+.service-options {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 50% 50%;
+    row-gap: 12px;
+    margin-left: 2%;
+}
+
+input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+/*Styling for Radio Buttons*/
+.job-roles {
+    width: 100%;
+    max-width: 600px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.job-roles label {
+    margin-top: 6px;
+}
+
+input[type="radio"] {
+    margin-right: 4px;
+}
+
+/*Styling for Textarea*/
+textarea {
+    font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
+    font-size: 1.20em;
+    width: 300px;
+    max-width: 375px;
+    height: 124px;
+    max-height: 200px;
+}
+
+/*Styling for Textarea*/
+.submit-button {
+    float:right;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 64px;
 }

@@ -10,9 +10,38 @@
   }
 
 @font-face {
+    font-family: "KreonLight";
+    src: local("KreonLight"),
+    url("../src/assets/fonts/Kreon-Light.ttf")
+    format("truetype");
+}
+
+@font-face {
     font-family: "KreonRegular";
     src: local("KreonRegular"),
     url("../src/assets/fonts/Kreon-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "KreonMedium";
+    src: local("KreonMedium"),
+    url("../src/assets/fonts/Kreon-Medium.ttf")
+    format("truetype");
+}
+
+
+@font-face {
+    font-family: "MontserratAlternatesLight";
+    src: local("MontserratAlternatesLight"),
+    url("../src/assets/fonts/MontserratAlternates-Light.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "MontserratAlternatesMedium";
+    src: local("MontserratAlternatesMedium"),
+    url("../src/assets/fonts/MontserratAlternates-Medium.ttf")
     format("truetype");
 }
 
@@ -22,11 +51,4 @@
         url("../src/assets/fonts/MontserratAlternates-Bold.ttf")
         format("truetype");
     font-weight: bold;
-}
-
-@font-face {
-    font-family: "MontserratAlternatesLight";
-    src: local("MontserratAlternatesLight"),
-    url("../src/assets/fonts/MontserratAlternates-Light.ttf")
-    format("truetype");
 }

@@ -50,11 +50,11 @@
 
 /*Social Media Button Icon Images Styling*/
 .socialMediaButtonImage {
-    position: absolute ;
+    position: absolute;
     width: 32px;
     height: 32px;
     left: 10px;
-    bottom: 4px;
+    bottom: 6px;
 }
 
 /*----------Media Queries---------------*/
@@ -65,7 +65,7 @@
     }
 }
 
-/*Targeting for Tablet Screen Sizes*/
+/*Targeting for Tablet & Desktop Screen Sizes*/
 @media screen and (min-width: 768px) {
     .socialMediaButtonContainer {
         margin: 16px;
@@ -82,4 +82,7 @@
         }
     }
 
-/*Targeting for Desktop Screen Sizes*/
+    .socialMediaButtonImage {
+        left: 16px;
+        bottom: 8px;
+    }

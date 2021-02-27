@@ -16,53 +16,53 @@ const SocialMediaButtons = () => {
     const github = "https://github.com/asiabthetechie";
 
     return (
-        <div className="socialMediaButtonContainer">
+        <div className="social-media-button-container">
             {/*Button to link to Twitter*/}
             <button
-                className="socialMediaButton"
+                className="social-media-button"
                 onClick={() => {
                     window.open(twitter);}}> 
-                <img className="socialMediaButtonImage twitterIcon"
+                <img className="social-media-button-image  twitterIcon"
                 src={twitterPic}/>
                 Twitter
             </button>
             
             {/*Button to link to LinkedIn*/}
             <button
-                className="socialMediaButton"
+                className="social-media-button"
                 onClick={() => {
                     window.open(linkedin);}}> 
-                <img className="socialMediaButtonImage linkedinIcon"
+                <img className="social-media-button-image linkedinIcon"
                 src={linkedinPic}/>    
                 LinkedIn
             </button>
 
             {/*Button to link to Instagram*/}
             <button
-                className="socialMediaButton"
+                className="social-media-button"
                 onClick={() => {
                     window.open(instagram);}}> 
-                <img className="socialMediaButtonImage instagramIcon"
+                <img className="social-media-button-image instagramIcon"
                 src={instagramPic}/> 
                 Instagram
             </button>
 
             {/*Button to link to GitHub*/}
             <button
-                className="socialMediaButton"
+                className="social-media-button"
                 onClick={() => {
                     window.open(github);}}> 
-                <img className="socialMediaButtonImage githubIcon"
+                <img className="social-media-button-image githubIcon"
                 src={githubPic}/> 
                 GitHub
             </button>
 
             {/*Button to link to Reddit*/}
             <button
-                className="socialMediaButton"
+                className="social-media-button"
                 onClick={() => {
                     window.open(reddit);}}> 
-                <img className="socialMediaButtonImage redditIcon"
+                <img className="social-media-button-image redditIcon"
                 src={redditPic}/>     
                 Reddit
             </button>

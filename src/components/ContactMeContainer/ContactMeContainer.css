@@ -26,8 +26,7 @@
         font-family: 'MontserratAlternatesLight', 'Franklin Gothic Medium', sans-serif;
         display: inline-block;
         width: 100%;
-        margin-top: 8px;
-        margin-bottom: 8px;
+        padding: 8px;
         text-align: center;
     }
 }

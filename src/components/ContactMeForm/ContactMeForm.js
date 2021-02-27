@@ -50,7 +50,7 @@ const ContactMeForm = () => {
                         <div className="company-name contact-input">
                             <label htmlFor="cname">
                                 <label className="company-header input-header">
-                                Company Name<em>*</em></label>
+                                Company Name</label>
                                 <i>Enter your company name here.</i><br/>
                                 <input type="text" 
                                     id="cname" 
@@ -81,54 +81,60 @@ const ContactMeForm = () => {
                             <label htmlFor="service">
                                 <label className="input-header">
                                 Specific Service<em>*</em></label>
-                                <i>What's being built or maintained? One required, three max.</i><br/>
+                                <i>What's being built or maintained? One required, two max.</i><br/>
                                 <div className="service-options">
-                                    <label htmlFor="website">
-                                    <input type="checkbox" 
-                                            id="website" 
-                                            name="service" 
-                                            defaultValue="website"/>
-                                            Website
+                                    <label className="checkbox"
+                                            htmlFor="website">
+                                        <input type="checkbox" 
+                                                id="website" 
+                                                name="service" 
+                                                defaultValue="website"/>
+                                                Website
                                     </label>
 
-                                    <label htmlFor="webapp">
-                                    <input type="checkbox" 
-                                            id="webapp" 
-                                            name="service" 
-                                            defaultValue="web-app"/>
-                                            Web App
+                                    <label className="checkbox"
+                                            htmlFor="webapp">
+                                        <input type="checkbox" 
+                                                id="webapp" 
+                                                name="service" 
+                                                defaultValue="web-app"/>
+                                                Web App
                                     </label>
 
-                                    <label htmlFor="mobileapp">
-                                    <input type="checkbox" 
-                                            id="mobileapp" 
-                                            name="service" 
-                                            defaultValue="mobile-app"/>
-                                            Mobile App
+                                    <label className="checkbox"
+                                            htmlFor="mobileapp">
+                                        <input type="checkbox" 
+                                                id="mobileapp" 
+                                                name="service" 
+                                                defaultValue="mobile-app"/>
+                                                Mobile App
                                     </label>
 
-                                    <label htmlFor="videogame">
-                                    <input type="checkbox" 
-                                            id="videogame" 
-                                            name="service" 
-                                            defaultValue="video-game"/>
-                                            Video Game
+                                    <label className="checkbox"
+                                            htmlFor="videogame">
+                                        <input type="checkbox" 
+                                                id="videogame" 
+                                                name="service" 
+                                                defaultValue="video-game"/>
+                                                Video Game
                                     </label>
 
-                                    <label htmlFor="videocontent">
-                                    <input type="checkbox" 
-                                            id="videocontent" 
-                                            name="service" 
-                                            defaultValue="video-content"/>
+                                    <label className="checkbox"
+                                            htmlFor="videocontent">
+                                        <input type="checkbox" 
+                                                id="videocontent" 
+                                                name="service" 
+                                                defaultValue="video-content"/>
                                             Video Content
                                     </label>
 
-                                    <label htmlFor="project">
-                                    <input type="checkbox" 
-                                            id="project" 
-                                            name="service" 
-                                            defaultValue="project-guideline"/>
-                                            Project Guideline
+                                    <label className="checkbox"
+                                            htmlFor="project">
+                                        <input type="checkbox" 
+                                                id="project" 
+                                                name="service" 
+                                                defaultValue="project-guideline"/>
+                                            Project Guidelines
                                     </label>
                                 </div>
                             </label>
@@ -141,33 +147,41 @@ const ContactMeForm = () => {
                                 Job Roles<em>*</em></label>
                                 <i>Select the job role you believe best fits the primary task.</i><br/>
                                 <div className="job-roles">
-                                    <label htmlFor="jobrole1">
-                                    <input type="radio" 
-                                            id="jobrole1" 
-                                            name="jobrole" 
-                                            defaultValue="consultant"/>
-                                    Consultant</label>
+                                    <label className="radio-button"
+                                            htmlFor="jobrole1">
+                                        <input type="radio" 
+                                                id="jobrole1" 
+                                                name="jobrole" 
+                                                defaultValue="consultant"/>
+                                        Consultant
+                                    </label>
                                     
-                                    <label htmlFor="jobrole2">
-                                    <input type="radio" 
-                                            id="jobrole2" 
-                                            name="jobrole" 
-                                            defaultValue="designer"/>
-                                    Designer</label>
+                                    <label className="radio-button"
+                                            htmlFor="jobrole2">
+                                        <input type="radio" 
+                                                id="jobrole2" 
+                                                name="jobrole" 
+                                                defaultValue="designer"/>
+                                        Designer
+                                    </label>
 
-                                    <label htmlFor="jobrole3">
-                                    <input type="radio" 
-                                            id="jobrole3" 
-                                            name="jobrole" 
-                                            defaultValue="developer"/>
-                                    Developer</label>
+                                    <label className="radio-button"
+                                            htmlFor="jobrole3">
+                                        <input type="radio" 
+                                                id="jobrole3" 
+                                                name="jobrole" 
+                                                defaultValue="developer"/>
+                                        Developer
+                                    </label>
                                     
-                                    <label htmlFor="jobrole4">
-                                    <input type="radio" 
-                                            id="jobrole4" 
-                                            name="jobrole" 
-                                            defaultValue="editor"/>
-                                    Editor</label>
+                                    <label className="radio-button"
+                                            htmlFor="jobrole4">
+                                        <input type="radio" 
+                                                id="jobrole4" 
+                                                name="jobrole" 
+                                                defaultValue="editor"/>
+                                        Editor
+                                    </label>
                                 </div>
                             </label>
                         </div>
@@ -177,19 +191,19 @@ const ContactMeForm = () => {
                         <div className="project-description job-info-input">
                             <label htmlFor="pdesc">
                                 <label className="input-header">
-                                Project Description<em>*</em></label>
+                                Project Description</label>
                                 <i>Give a brief description of the job/project. 
                                 Max 500 characters.</i><br/>
                                 <textarea 
                                     id="pdesc" 
                                     name="pdesc"
-                                    maxLength="500"
-                                    defaultValue="No need to get too detailed, even one sentence is fine."/>
+                                    maxlength="500"
+                                    spellCheck="default"
+                                    placeholder="No need to get too detailed, even one sentence is fine."/>
                             </label>
                         </div>
                     </div>        
                 </fieldset>
-
                 {/*Submit Button*/}
                 <div className="submit-button">
                     <input type="submit" 

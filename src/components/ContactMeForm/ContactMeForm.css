@@ -36,7 +36,7 @@ i {
     font-size: 0.9em;
 }
 
-/*Input Styling*/
+/*General Input Styling*/
 label {
     font-family: 'MontserratAlternatesMedium', 'Franklin Gothic Medium', sans-serif;
     font-size: 0.85rem;
@@ -47,7 +47,6 @@ label {
     margin-top: 24px;
     margin-left: 4px;
     font-weight: bold;
-    
 }
 
 /*Styling for Text Input Elements*/
@@ -63,18 +62,49 @@ input[type="text"] {
     max-width: 400px;
 }
 
+textarea {
+    font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
+    font-size: 1.20em;
+    width: 300px;
+    max-width: 375px;
+    height: 124px;
+    min-height: 64px;
+    max-height: 200px;
+}
+
+input[type="text"]:hover, textarea:hover {
+    border: 2px solid #72767C;
+    border-radius: 3px;
+    transition: all 0.15s ease-in-out;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border: none;
+    outline: 2px solid #60D2CB;
+    box-shadow: -2px 2px 5px #60D2CB;
+}
+
 /*Styling for Checkboxes*/
 .service-options {
     width: 100%;
     display: inline-grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 30% 32% 38%;
     grid-template-rows: 50% 50%;
     row-gap: 12px;
     margin-left: 2%;
 }
 
+.checkbox {
+    cursor: pointer;
+}
+
+.checkbox:hover {
+    font-weight: bold;
+}
+
 input[type="checkbox"] {
     margin-right: 4px;
+    cursor: pointer;
 }
 
 /*Styling for Radio Buttons*/
@@ -85,32 +115,88 @@ input[type="checkbox"] {
     justify-content: space-evenly;
 }
 
-.job-roles label {
+.radio-button {
     margin-top: 6px;
+    cursor: pointer;
+}
+
+.radio-button:hover {
+    font-weight: bold;
 }
 
 input[type="radio"] {
     margin-right: 4px;
+    cursor: pointer;
 }
 
-/*Styling for Textarea*/
-textarea {
-    font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
-    font-size: 1.20em;
-    width: 300px;
-    max-width: 375px;
-    height: 124px;
-    max-height: 200px;
-}
+
 
 /*Styling for Textarea*/
 .submit-button {
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
     float:right;
     margin-bottom: 5%;
     margin-right: 5%;
+    transform-style: preserve-3d;
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
 }
 
+/*Styling for Submit Button*/
 input[type="submit"] {
-    width: 200px;
-    height: 64px;
+    font-family: 'MontserratAlternatesBold', 'Franklin Gothic Medium', sans-serif;
+    font-size: 1em;
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    border: 2px solid #72767C;
+    border-radius: inherit;
+    cursor: pointer;
+}
+
+.submit-button::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #575a5f;
+    border: 2px solid #021D27;
+    border-radius: inherit;
+    box-shadow: -1px 1px 4px #94999b;
+    transform: translate3d(-8px, 8px, -1px);
+    transition: all 5ms cubic-bezier(0, 0, 1, 1);
+}
+
+/*Button Hover*/
+input[type="submit"]:hover {
+    border-color: #2c7377;
+    color: #2C7377;
+    transform: translate(0, 4px);
+    transition: all 5ms cubic-bezier(0, 0, 1, 1);
+}
+
+.submit-button:hover::before {
+    transform: translate3d(-6px, 8px, -1px);
+    transition: all 5ms cubic-bezier(0, 0, 1, 1);
+}
+
+/*Button Active*/
+input[type="submit"]:active {
+    color: #2c7377;
+    transform: translate(-2px, 1px);
+    transition: all 5ms cubic-bezier(0, 0, 1, 1);
+    outline: #60D2CB;
+}
+
+.submit-button:active::before {
+    transform: translate3d(-2px, 2px, -1px);
+    transition: all 5ms cubic-bezier(0, 0, 1, 1);
+    box-shadow: -2px 2px 4px #60D2CB;
 }

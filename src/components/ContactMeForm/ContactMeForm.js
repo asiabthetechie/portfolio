@@ -89,7 +89,10 @@ const ContactMeForm = () => {
                                                 id="website" 
                                                 name="service" 
                                                 defaultValue="website"/>
+                                        <label className="checkbox-text"
+                                                htmlFor="website">
                                                 Website
+                                        </label>
                                     </label>
 
                                     <label className="checkbox"
@@ -98,7 +101,10 @@ const ContactMeForm = () => {
                                                 id="webapp" 
                                                 name="service" 
                                                 defaultValue="web-app"/>
+                                        <label className="checkbox-text"
+                                                htmlFor="webapp">
                                                 Web App
+                                        </label>
                                     </label>
 
                                     <label className="checkbox"
@@ -107,7 +113,10 @@ const ContactMeForm = () => {
                                                 id="mobileapp" 
                                                 name="service" 
                                                 defaultValue="mobile-app"/>
+                                        <label className="checkbox-text"
+                                                htmlFor="mobileapp">
                                                 Mobile App
+                                        </label>
                                     </label>
 
                                     <label className="checkbox"
@@ -116,7 +125,10 @@ const ContactMeForm = () => {
                                                 id="videogame" 
                                                 name="service" 
                                                 defaultValue="video-game"/>
+                                        <label className="checkbox-text"
+                                                htmlFor="videogame">
                                                 Video Game
+                                        </label>
                                     </label>
 
                                     <label className="checkbox"
@@ -125,7 +137,10 @@ const ContactMeForm = () => {
                                                 id="videocontent" 
                                                 name="service" 
                                                 defaultValue="video-content"/>
-                                            Video Content
+                                        <label className="checkbox-text"
+                                                htmlFor="videocontent">
+                                                Video Content
+                                        </label>
                                     </label>
 
                                     <label className="checkbox"
@@ -134,7 +149,10 @@ const ContactMeForm = () => {
                                                 id="project" 
                                                 name="service" 
                                                 defaultValue="project-guideline"/>
-                                            Project Guidelines
+                                        <label className="checkbox-text"
+                                                htmlFor="project">
+                                                Project Guidelines
+                                        </label>
                                     </label>
                                 </div>
                             </label>
@@ -153,7 +171,10 @@ const ContactMeForm = () => {
                                                 id="jobrole1" 
                                                 name="jobrole" 
                                                 defaultValue="consultant"/>
-                                        Consultant
+                                        <label className="radio-button-text"
+                                                htmlFor="jobrole1">
+                                                Consultant
+                                        </label>
                                     </label>
                                     
                                     <label className="radio-button"
@@ -162,7 +183,10 @@ const ContactMeForm = () => {
                                                 id="jobrole2" 
                                                 name="jobrole" 
                                                 defaultValue="designer"/>
-                                        Designer
+                                        <label className="radio-button-text"
+                                                htmlFor="jobrole2">
+                                                Designer
+                                        </label>
                                     </label>
 
                                     <label className="radio-button"
@@ -171,7 +195,10 @@ const ContactMeForm = () => {
                                                 id="jobrole3" 
                                                 name="jobrole" 
                                                 defaultValue="developer"/>
-                                        Developer
+                                        <label className="radio-button-text"
+                                                htmlFor="jobrole3">
+                                                Developer
+                                        </label>
                                     </label>
                                     
                                     <label className="radio-button"
@@ -180,7 +207,10 @@ const ContactMeForm = () => {
                                                 id="jobrole4" 
                                                 name="jobrole" 
                                                 defaultValue="editor"/>
-                                        Editor
+                                        <label className="radio-button-text"
+                                                htmlFor="jobrole4">
+                                                Editor
+                                        </label>
                                     </label>
                                 </div>
                             </label>

@@ -1,9 +1,9 @@
-.contactMeContainer {
+.contact-me-container {
     display: none;
 }
 
 @media screen and (min-width: 993px) {
-    .contactMeContainer {
+    .contact-me-container {
         display: block;
         width: 472px;
         max-width: 60%;
@@ -15,18 +15,27 @@
         flex-grow: 2;
     }
 
-    .contactMeHeader {
+    .contact-me-header {
         font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
         text-align: center;
         font-size: 28pt;
         margin-top: 16px;
     }
 
-    .contactMeContainer span {
+    .contact-me-container-text {
         font-family: 'MontserratAlternatesLight', 'Franklin Gothic Medium', sans-serif;
         display: inline-block;
         width: 100%;
         padding: 8px;
         text-align: center;
     }
+
+    .cursor-image {
+        width: 84px;
+        height: 84px;
+        transform: rotate(130deg);
+        float: right;
+        margin-right: 40px;
+    }
+
 }

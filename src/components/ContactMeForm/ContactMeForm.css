@@ -300,3 +300,14 @@ input[type="submit"]:active {
 .submit-button:active::before {
     visibility: hidden;
 }
+
+@media screen and (min-width: 1600px) {
+    textarea {
+        font-family: 'KreonRegular', Cambria, 'Times New Roman', serif;
+        font-size: 1.20em;
+        resize: none;
+        padding: 6px;
+        width: 800px;
+        height: 156px;
+    }
+}

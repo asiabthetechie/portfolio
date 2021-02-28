@@ -12,7 +12,8 @@ const ContactMeContainer = () => {
             </span>
             <ContactMeForm />
             <img className="decor-image cursor-image"
-                src={cursorPic}/>
+                src={cursorPic}
+            />
         </div>
     )
 }

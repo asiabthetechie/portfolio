@@ -1,7 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./ContactMeForm.css";
 
 const ContactMeForm = () => {
+    /*Functions to handle the Contact Form Inputs*/
+    const [firstname, setFirstName] = useState(''); 
+
+    /*Functions to handle invalid Contact Form Inputs*/
+    const [alert, setAlert] = useState(false);
+    const validate = event => {
+        if (/\*/.test(firstname)) {
+            event.preventDefault();
+            setAlert(true);
+            return;
+        }
+        setAlert(false);
+    };
+
     return (
         <div className="contact-form-container">
             {/*Contact Me Form*/}
@@ -9,6 +23,11 @@ const ContactMeForm = () => {
                 {/*Contact Info*/}
                 <fieldset>
                     <legend>Contact Info</legend>
+                    <div className="wrapper">
+                        <div className="preview">
+                            <h3>Event Verification: {firstname}</h3>
+                        </div>
+                    </div>
                     <div className="contact-info">
                         {/*First Name*/}
                         <div className="first-name contact-input">
@@ -18,8 +37,15 @@ const ContactMeForm = () => {
                                 <input type="text" 
                                         id="fname" 
                                         name="firstname"
-                                        required="required"/>
+                                        required="required"
+                                        onChange={event => setFirstName(event.target.value)}
+                                        onBlur={validate}
+                                        />
                             </label>
+                            {alert && 
+                            <div className="text-validation-failure"> 
+                                No symbols for this field.
+                            </div>}
                         </div>
                         
                         {/*Last Name*/}

@@ -20,13 +20,3 @@ html, body {
     display: none;
 }
 
-@media screen and (min-width: 1600px) {
-    .shooting-stars-image {
-        display: inline-block;
-        width: 160px;
-        height: 160px;
-        margin-left: -80px;
-        margin-right: -48px;
-        transform: scaleX(-1);
-    }
-}

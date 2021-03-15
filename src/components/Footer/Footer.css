@@ -9,8 +9,10 @@ footer {
     font-family: 'MontserratAlternatesLight', 'Franklin Gothic Medium', sans-serif;
 }
 
+/* Add back after adding contact form
 @media screen and (min-width: 993px) {
     .made-by {
         display: none;
     }
 }
+*/

@@ -1,20 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./ContactMeForm.css";
 
 const ContactMeForm = () => {
-    /*Functions to handle the Contact Form Inputs*/
-    const [firstname, setFirstName] = useState(''); 
+    /*Functions to handle the Contact Form Text Inputs*/
 
     /*Functions to handle invalid Contact Form Inputs*/
-    const [alert, setAlert] = useState(false);
-    const validate = event => {
-        if (/\*/.test(firstname)) {
-            event.preventDefault();
-            setAlert(true);
-            return;
-        }
-        setAlert(false);
-    };
+    
+    /*Function to handle submission of the Contanct Form*/
 
     return (
         <div className="contact-form-container">
@@ -23,29 +15,18 @@ const ContactMeForm = () => {
                 {/*Contact Info*/}
                 <fieldset>
                     <legend>Contact Info</legend>
-                    <div className="wrapper">
-                        <div className="preview">
-                            <h3>Event Verification: {firstname}</h3>
-                        </div>
-                    </div>
                     <div className="contact-info">
                         {/*First Name*/}
                         <div className="first-name contact-input">
-                            <label htmlFor="fname">
+                            <label htmlFor="firstName">
                                 <label className="input-header">
                                 First Name<em>*</em></label>
                                 <input type="text" 
-                                        id="fname" 
-                                        name="firstname"
+                                        id="firstName" 
+                                        name="firstName"
                                         required="required"
-                                        onChange={event => setFirstName(event.target.value)}
-                                        onBlur={validate}
                                         />
                             </label>
-                            {alert && 
-                            <div className="text-validation-failure"> 
-                                No symbols for this field.
-                            </div>}
                         </div>
                         
                         {/*Last Name*/}
